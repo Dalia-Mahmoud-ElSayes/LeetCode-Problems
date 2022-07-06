@@ -24,12 +24,5 @@ class Solution:
             nodes.append(ListNode(val=int(sum[i])))
         for i in range (1,len(nodes)):
             nodes[i].next=nodes[i-1]
-        return nodes[-1]
-        # while True:
-        #     l3.append(node.val)
-        #     if node.next==None:
-        #         break
-        #     node=node.next
-        # print(node)
-        
+        return nodes[-1]            
         
